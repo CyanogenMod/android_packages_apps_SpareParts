@@ -23,7 +23,9 @@
     <application android:label="@string/app_label"
             android:icon="@mipmap/app_icon">
 
-        <activity android:name="SpareParts">
+        <activity
+            android:name="SpareParts"
+            android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -31,5 +33,12 @@
             </intent-filter>
         </activity>
 
+        <receiver
+            android:name="Enabler">
+            <intent-filter>
+                <action android:name="android.intent.action.ADVANCED_SETTINGS" />
+            </intent-filter>
+        </receiver>
+        
     </application>
 </manifest>
