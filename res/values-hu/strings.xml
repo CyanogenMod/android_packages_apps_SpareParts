@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <string name="app_label">Spare Parts</string>
+
+    <string name="device_info_title">Eszköz információ</string>
+
+    <string name="title_battery_history">Akkumulátor előzmények</string>
+    <string name="summary_battery_history">Összefoglaló az akkumulátor használatáról</string>
+
+    <string name="title_battery_information">Akkumulátor információ</string>
+    <string name="summary_battery_information">Aktuális információ az akkumulátor állapotáról</string>
+
+    <string name="title_usage_statistics">Használati statisztika</string>
+    <string name="summary_usage_statistics">Összefoglaló az alkalmazások használatáról</string>
+
+    <string name="general_title">Általános</string>
+
+    <string name="title_window_animations">Ablak animációk</string>
+    <string name="summary_window_animations">Az egyes ablak animációk sebessége</string>
+    <string name="dialog_title_window_animations">Válasszon sebességet</string>
+
+    <string name="title_transition_animations">Átmeneti animációk</string>
+    <string name="summary_transition_animations">Az ablakok közti animációk sebessége</string>
+    <string name="dialog_title_transition_animations">Válasszon sebességet</string>
+
+    <string name="title_fancy_ime_animations">Tetszetős beviteli mezők</string>
+    <string name="summary_on_fancy_ime_animations">Extra animációk használata a beviteli mezőknél</string>
+    <string name="summary_off_fancy_ime_animations">Ne használjon extra animációt a beviteli mezőknél</string>
+
+    <string name="title_haptic_feedback">Érintési visszjelzés</string>
+    <string name="summary_on_haptic_feedback">Érintési visszajelzés bekapcsolva</string>
+    <string name="summary_off_haptic_feedback">Érintési visszajelzés kikapcsolva</string>
+
+    <string name="title_font_size">Betűméret</string>
+    <string name="summary_font_size">A betűk mérete</string>
+    <string name="dialog_title_font_size">Válasszon betűméretet</string>
+
+    <string name="title_end_button">Bezárási esemény</string>
+    <string name="summary_end_button">Válasszon bezárási eseményt</string>
+    <string name="dialog_title_end_button">Válasszon bezárás gombot</string>
+
+    <string name="applications_title">Alkalmazások</string>
+
+    <!-- Sound & display settings screen, compatibility mode check box label -->
+    <string name="compatibility_mode_title">Kompatibilitási mód</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is selected -->
+    <string name="compatibility_mode_summary_on">A régebbi alkalmazások kompatibilitási módban fussanak. Újraindítás szükséges.</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is clear -->
+    <string name="compatibility_mode_summary_off">Ne fussanak kompatibilitási módban a régebbi alkalmazások sem. Újraindítás szükséges.</string>
+
+</resources>
