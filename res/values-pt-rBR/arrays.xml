@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_animations">
+        <item>Desligado</item>
+        <item>Rápido</item>
+        <item>Normal</item>
+        <item>Devagar</item>
+        <item>Muito Devagar</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Extremamente Pequeno</item>
+        <item>Muito Pequeno</item>
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Muito Grande</item>
+        <item>Extremamente Grande</item>
+    </string-array>
+    <string-array name="entries_end_button">
+        <item>Nada</item>
+        <item>Ir para o início</item>
+        <item>Ir dormir</item>
+        <item>Início e então dormir</item>
+    </string-array>
+</resources>

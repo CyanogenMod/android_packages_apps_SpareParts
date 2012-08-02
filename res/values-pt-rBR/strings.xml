@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Peças de Reposição</string>
+    <string name="device_info_title">Inf. do Dispositivo</string>
+    <string name="title_battery_history">Histórico da bateria</string>
+    <string name="summary_battery_history">Resumo da utilização da bateria</string>
+    <string name="title_battery_information">Informação da bateria</string>
+    <string name="summary_battery_information">Atual informação de estado da bateria</string>
+    <string name="title_usage_statistics">Estatística de uso</string>
+    <string name="summary_usage_statistics">Resumo de uso das aplicações</string>
+    <string name="general_title">Geral</string>
+    <string name="title_window_animations">Animações de janela</string>
+    <string name="summary_window_animations">Velocidade das animações em janelas individuais</string>
+    <string name="dialog_title_window_animations">Selecione a velocidade da janela</string>
+    <string name="title_transition_animations">Animações de transição</string>
+    <string name="summary_transition_animations">Velocidade das animações entre as telas</string>
+    <string name="dialog_title_transition_animations">Selecione a velocidade de transição</string>
+    <string name="title_fancy_ime_animations">Animações de entrada melhores</string>
+    <string name="summary_on_fancy_ime_animations">Usar melhores animações para janelas de método de entrada</string>
+    <string name="summary_off_fancy_ime_animations">Usar animações para janelas de método de entrada</string>
+    <string name="title_haptic_feedback">Resposta ao toque</string>
+    <string name="summary_on_haptic_feedback">Usar resposta ao toque com interação de usuário</string>
+    <string name="summary_off_haptic_feedback">Não usar resposta ao toque com interação de usuário</string>
+    <string name="title_font_size">Tamanho da fonte</string>
+    <string name="summary_font_size">Tamanho de fonte global</string>
+    <string name="dialog_title_font_size">Selecionar tamanho de fonte</string>
+    <string name="title_end_button">Comportamento do botão encerrar</string>
+    <string name="summary_end_button">Selecionar ação do botão Encerrar (vermelho)</string>
+    <string name="dialog_title_end_button">Selecionar botão Encerrar</string>
+    <string name="applications_title">Aplicações</string>
+    <string name="compatibility_mode_title">Modo de Compatibilidade</string>
+    <string name="compatibility_mode_summary_on">Rodar aplicações antigas em modo de Compatibilidade. Isto requer reinicialização.</string>
+    <string name="compatibility_mode_summary_off">Não rodar aplicações antigas em modo de Compatibilidade. Isto requer reinicialização.</string>
+</resources>
