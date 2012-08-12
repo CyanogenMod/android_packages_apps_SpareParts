@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_animations">
+        <item>Off</item>
+        <item>Veloci</item>
+        <item>Normali</item>
+        <item>Lente</item>
+        <item>Molto lente</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Estremamente piccoli</item>
+        <item>Molto piccoli</item>
+        <item>Piccoli</item>
+        <item>Normali</item>
+        <item>Grandi</item>
+        <item>Molto grandi</item>
+        <item>Estremamente grandi</item>
+    </string-array>
+    <string-array name="entries_end_button">
+        <item>Niente</item>
+        <item>Vai alla home</item>
+        <item>Spegni schermo</item>
+        <item>Home, poi spegni schermo</item>
+    </string-array>
+</resources>

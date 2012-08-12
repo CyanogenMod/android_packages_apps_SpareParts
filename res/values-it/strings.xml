@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Spare Parts</string>
+    <string name="device_info_title">Informazioni dispositivo</string>
+    <string name="title_battery_history">Storico batteria</string>
+    <string name="summary_battery_history">Dettagli delle modalità di utilizzo della batteria</string>
+    <string name="title_battery_information">Informazioni batteria</string>
+    <string name="summary_battery_information">Informazioni sullo stato corrente della batteria</string>
+    <string name="title_usage_statistics">Statistiche utilizzo</string>
+    <string name="summary_usage_statistics">Riepilogo dell\'utilizzo delle applicazioni</string>
+    <string name="general_title">Generale</string>
+    <string name="title_window_animations">Animazioni finestre</string>
+    <string name="summary_window_animations">Velocità delle animazioni nelle singole finestre</string>
+    <string name="dialog_title_window_animations">Selezionare la velocità della finestra</string>
+    <string name="title_transition_animations">Animazioni transizione</string>
+    <string name="summary_transition_animations">Velocità delle animazioni tra una schermata e l\'altra</string>
+    <string name="dialog_title_transition_animations">Selezionare velocità transizione</string>
+    <string name="title_fancy_ime_animations">Animazioni alternative tastiera</string>
+    <string name="summary_on_fancy_ime_animations">Usa animazioni alternative per la tastiera</string>
+    <string name="summary_off_fancy_ime_animations">Usa animazioni normali per la tastiera</string>
+    <string name="title_haptic_feedback">Feedback tattile</string>
+    <string name="summary_on_haptic_feedback">Usa feedback tattile nell\'interazione con l\'utente</string>
+    <string name="summary_off_haptic_feedback">Usa feedback tattile nell\'interazione con l\'utente</string>
+    <string name="title_font_size">Dimensione font</string>
+    <string name="summary_font_size">Dimensione generale dei font</string>
+    <string name="dialog_title_font_size">Selezionare la dimensione dei font</string>
+    <string name="title_end_button">Comportamento pulsante home</string>
+    <string name="summary_end_button">Selezionare l\'azione associata al pulsante Termina (rosso)</string>
+    <string name="dialog_title_end_button">Selezionare l\'azione per Termina</string>
+    <string name="applications_title">Applicazioni</string>
+    <string name="compatibility_mode_title">Modalità compatibilità</string>
+    <string name="compatibility_mode_summary_on">Avvia le vecchie applicazioni in modalità compatibile. Richiede riavvio. </string>
+    <string name="compatibility_mode_summary_off">Avvia le vecchie applicazioni in modalità compatibile. Richiede riavvio. </string>
+</resources>
