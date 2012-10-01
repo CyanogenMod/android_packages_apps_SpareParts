@@ -125,8 +125,8 @@ public class SpareParts extends PreferenceActivity
         mEndButtonPref.setOnPreferenceChangeListener(this);
         mCompatibilityMode = (CheckBoxPreference) findPreference(KEY_COMPATIBILITY_MODE);
         mCompatibilityMode.setPersistent(false);
-        mCompatibilityMode.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.COMPATIBILITY_MODE, 1) != 0);
+        mCompatibilityMode.setChecked(Settings.Global.getInt(getContentResolver(),
+                Settings.Global.COMPATIBILITY_MODE, 1) != 0);
 
         mWindowManager = IWindowManager.Stub.asInterface(ServiceManager.getService("window"));
         
@@ -142,9 +142,9 @@ public class SpareParts extends PreferenceActivity
     }
 
     private void updateToggles() {
-        mFancyImeAnimationsPref.setChecked(Settings.System.getInt(
+        mFancyImeAnimationsPref.setChecked(Settings.Global.getInt(
                 getContentResolver(), 
-                Settings.System.FANCY_IME_ANIMATIONS, 0) != 0);
+                Settings.Global.FANCY_IME_ANIMATIONS, 0) != 0);
         mHapticFeedbackPref.setChecked(Settings.System.getInt(
                 getContentResolver(), 
                 Settings.System.HAPTIC_FEEDBACK_ENABLED, 0) != 0);
@@ -167,8 +167,8 @@ public class SpareParts extends PreferenceActivity
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mCompatibilityMode) {
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.COMPATIBILITY_MODE,
+            Settings.Global.putInt(getContentResolver(),
+                    Settings.Global.COMPATIBILITY_MODE,
                     mCompatibilityMode.isChecked() ? 1 : 0);
             return true;
         }
@@ -243,8 +243,8 @@ public class SpareParts extends PreferenceActivity
     
     public void onSharedPreferenceChanged(SharedPreferences preferences, String key) {
         if (FANCY_IME_ANIMATIONS_PREF.equals(key)) {
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.FANCY_IME_ANIMATIONS,
+            Settings.Global.putInt(getContentResolver(),
+                    Settings.Global.FANCY_IME_ANIMATIONS,
                     mFancyImeAnimationsPref.isChecked() ? 1 : 0);
         } else if (HAPTIC_FEEDBACK_PREF.equals(key)) {
             Settings.System.putInt(getContentResolver(),
