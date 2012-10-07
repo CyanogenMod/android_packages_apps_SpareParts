@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Náhradní díly</string>
+    <string name="device_info_title">Informace o tomto telefonu</string>
+    <string name="title_battery_history">Historie stavu baterie</string>
+    <string name="summary_battery_history">Historie využití baterie</string>
+    <string name="title_battery_information">Informace o baterii</string>
+    <string name="summary_battery_information">Informace o aktuálním stavu baterie</string>
+    <string name="title_usage_statistics">Statistiky využití</string>
+    <string name="summary_usage_statistics">Přehled používání aplikací</string>
+    <string name="general_title">Obecné</string>
+    <string name="title_window_animations">Animace oken</string>
+    <string name="summary_window_animations">Rychlost animace v jednotlivých oknech</string>
+    <string name="dialog_title_window_animations">Zvolit rychlost oken</string>
+    <string name="title_transition_animations">Animace přechodů</string>
+    <string name="summary_transition_animations">Rychlost animace pohybu mezi obrazovkami</string>
+    <string name="dialog_title_transition_animations">Zvolit rychlost přechodů</string>
+    <string name="title_fancy_ime_animations">Ozdobné vstupní animace</string>
+    <string name="summary_on_fancy_ime_animations">Použít ozdobné animace pro vstupní metody oken</string>
+    <string name="summary_off_fancy_ime_animations">Použít normální animace pro vstupní metody oken</string>
+    <string name="title_haptic_feedback">Hmatová odezva</string>
+    <string name="summary_on_haptic_feedback">Použít hmatovou odezvu při interakci s uživatelem</string>
+    <string name="summary_off_haptic_feedback">Nepoužít hmatovou odezvu při interakci s uživatelem</string>
+    <string name="title_font_size">Velikost písma</string>
+    <string name="summary_font_size">Základní velikost písma</string>
+    <string name="dialog_title_font_size">Zvolit velikost písma</string>
+    <string name="title_end_button">Funkce tlačítka Konec</string>
+    <string name="summary_end_button">Zvolte Konec (červené tlačítko, ukončení hovoru)</string>
+    <string name="dialog_title_end_button">Zvolte tlačítko Konec</string>
+    <string name="applications_title">Aplikace</string>
+    <string name="compatibility_mode_title">Režim kompatibility</string>
+    <string name="compatibility_mode_summary_on">Spouštět starší aplikace v režimu kompatibility. Vyžaduje restart zařízení.</string>
+    <string name="compatibility_mode_summary_off">Nespouštět starší aplikace v režimu kompatibility. Vyžaduje restart zařízení.</string>
+</resources>
