@@ -45,7 +45,7 @@
     <string name="summary_on_fancy_ime_animations">Extra animációk használata a beviteli mezőknél</string>
     <string name="summary_off_fancy_ime_animations">Ne használjon extra animációt a beviteli mezőknél</string>
 
-    <string name="title_haptic_feedback">Érintési visszjelzés</string>
+    <string name="title_haptic_feedback">Érintési visszajelzés</string>
     <string name="summary_on_haptic_feedback">Érintési visszajelzés bekapcsolva</string>
     <string name="summary_off_haptic_feedback">Érintési visszajelzés kikapcsolva</string>
 
