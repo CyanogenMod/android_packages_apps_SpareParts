@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <string name="app_label">Spare Parts</string>
+    <string name="device_info_title">À propos de l\'appareil</string>
+    <string name="title_battery_history">Historique de la batterie</string>
+    <string name="summary_battery_history">Résumé de la façon dont la batterie a été utilisée</string>
+    <string name="title_battery_information">Information de la batterie</string>
+    <string name="summary_battery_information">Informations courantes sur l\'état de la batterie</string>
+    <string name="title_usage_statistics">Statistiques</string>
+    <string name="summary_usage_statistics">Résumé de l\'utilisation des applications</string>
+    <string name="general_title">Général</string>
+    <string name="title_window_animations">Animations des fenêtres</string>
+    <string name="summary_window_animations">Vitesse d\'animation des fenêtres individuelles</string>
+    <string name="dialog_title_window_animations">Définir la vitesse des fenêtres</string>
+    <string name="title_transition_animations">Animations des transitions</string>
+    <string name="summary_transition_animations">Vitesse d\'animations entre les écrans</string>
+    <string name="dialog_title_transition_animations">Définir la vitesse de transition</string>
+    <string name="title_fancy_ime_animations">Animations d\'entrée fantaisistes</string>
+    <string name="summary_on_fancy_ime_animations">Utiliser des animations plus fantaisistes pour les méthodes d\'entrées des fenêtres</string>
+    <string name="summary_off_fancy_ime_animations">Utiliser des animations normales pour les méthodes d\'entrées des fenêtres</string>
+    <string name="title_haptic_feedback">Retour haptique</string>
+    <string name="summary_on_haptic_feedback">Utiliser le retour haptique lors des interactions de l\'utilisateur</string>
+    <string name="summary_off_haptic_feedback">Utiliser le retour haptique lors des interactions de l\'utilisateur</string>
+    <string name="title_font_size">Taille de la police</string>
+    <string name="summary_font_size">Taille globale des polices de caractères</string>
+    <string name="dialog_title_font_size">Définir la police de caractère</string>
+    <string name="title_end_button">Comportement du bouton Fin</string>
+    <string name="summary_end_button">Définir les actions du bouton Fin (rouge)</string>
+    <string name="dialog_title_end_button">Définir le bouton fin</string>
+    <string name="applications_title">Applications</string>
+    <string name="compatibility_mode_title">Mode de compatibilité</string>
+    <string name="compatibility_mode_summary_on">Pour exécuter d\'anciennes applications en mode de compatibilité, il est nécessaire de redémarrer.</string>
+    <string name="compatibility_mode_summary_off">Pour exécuter d\'anciennes applications en mode de compatibilité, il est nécessaire de redémarrer.</string>
+</resources>
